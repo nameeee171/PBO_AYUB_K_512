@@ -51,7 +51,7 @@ public class Login {
                 System.out.println("Pilihan tidak valid.");
                 break;
         }
-
+        //rizky ganteng
         input.close();
     }
 }
