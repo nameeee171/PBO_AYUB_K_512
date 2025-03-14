@@ -29,7 +29,7 @@ public class DataDiri {
         System.out.println("\n=== Data Diri Anda ===");
         System.out.println("Nama: " + nama);
         System.out.println("Jenis Kelamin: " + kelamin);
-        System.out.println("Umur: " + umur);
+        System.out.println("Umur: " + umur);//
         
         scanner.close();
     }
