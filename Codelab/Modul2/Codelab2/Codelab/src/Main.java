@@ -5,13 +5,14 @@ public class Main {
         RekeningBank rek1 = new RekeningBank();
         RekeningBank rek2 = new RekeningBank();
 
-        rek1.nomor = "202410370110508";
-        rek1.nama = "lunox punya putri";
+        rek1.nomor = "12345";
+        rek1.nama = "lunox";
         rek1.saldo = 2000000;
 
-        rek2.nomor = "202410370110480";
-        rek2.nama = "putri punya lunox";
-        rek2.saldo = 500000;
+        rek2.nomor = "54321";
+        rek2.nama = "fanni";
+        rek2.saldo = 2000000;
+
 
         boolean ulang = true;
 
@@ -60,4 +61,5 @@ public class Main {
 
         input.close();
         }
+
     }
