@@ -9,7 +9,7 @@ public abstract class User {
         this.nim = nim;
     }
 
-    // Getter dan Setter
+
     public String getNama() {
         return nama;
     }
@@ -18,11 +18,11 @@ public abstract class User {
         return nim;
     }
 
-    // Abstract methods
+
     public abstract boolean login();
     public abstract void displayAppMenu();
 
-    // Method untuk menampilkan informasi umum
+
     public void displayInfo() {
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
